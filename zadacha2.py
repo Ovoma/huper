@@ -16,13 +16,9 @@ else:
   for j in range(c):
     if j==0:
       b[0]=a[1]+a[-1]
-
-
     elif j==c-1:
       b[-1]=a[-2]+a[0]
-
     elif   0<j<c-1:
       b[j]=a[j-1]+a[j+1]
-
   for l in b:
     print(l, end=' ')
