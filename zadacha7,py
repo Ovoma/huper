@@ -1,0 +1,12 @@
+b=[]
+while True:
+    a=[int(i) for i in input().split()]
+    b.append(a)
+    if input()=='End':
+        break
+
+print(b)
+
+
+
+
